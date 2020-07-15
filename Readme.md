@@ -8,45 +8,32 @@ For Getting started to install this App you just have to get Python3 installed. 
 
 ### Installing
 
-Running the App for the first time : 
- - If you are Running the App for the First Time then it will Throe an Error Message and will Try to Rectify the Error on its own if there is internet Connection available and is Connected to our Servers. After the Error Has been Rectified it will show you a message to restart the App and after Restarting the App it will be functioning very well.
+Running the App for the first time :
 
+- If you are Running the App for the First Time then it will Throe an Error Message and will Try to Rectify the Error on its own if there is internet Connection available and is Connected to our Servers. After the Error Has been Rectified it will show you a message to restart the App and after Restarting the App it will be functioning very well.
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+As the Running the App is kept very simple as You only ave to pen the Program as You do with other Programs.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+As this App is not ment for Deployment and is Free to use for your Own Personal Tracking Purpose.
+The main Reason why it is said over here that it is not ment for Deployment as Here You cant Deploy it But If you find a way to Deploy this App as your own App. You are free to use as Your own Software But Mention your name Here So that EveryOne Here can get to know that you have Owned this software for you Deployment Purpose and EveryOne will get to know how to Deploy Apps Like this.
 
 ## Built With
 
-* FrameWorks Goes Here
+- Tkinter
+- Plyer
+- Requests
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for the Contributing Instructions.
 
 ## Authors
 
-* **Aman Ojha** - *Initial work* - [Aman Ojha](https://github.com/alexmercerr07)
+- **Aman Ojha** - _Initial work_ - [Aman Ojha](https://github.com/alexmercerr07)
 
 ## License
 
@@ -54,7 +41,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
+- I would like to acknowledge LockDown for giving me the Idea for tracking the cases for Corona Virus.
