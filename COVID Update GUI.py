@@ -1,5 +1,12 @@
 def refresh():
-    print('It has been Refreshed')
+    getdata()
+
+
+def helpp():
+    notification.notify(
+        title='HELP Menu for COVID Update App By Aman Ojha',
+        message='As it was Not ment like that you will search for Help Whatever Mail me your Issue to programoverload@gmail.com',
+        timeout=10)
 
 
 statelist = [
@@ -59,11 +66,11 @@ def printdata():
     global text
     print('This is for Debugging')
     print(numberOfSubmit)
-    if(numberOfSubmit == 1):
-        numberOfSubmit = 0
-        label.pack_forget()
     for i in range(0, 38):
         if state.lower() == text['statewise'][i]['state'].lower():
+            # if numberOfSubmit == 1:
+            #     numberOfSubmit = 0
+            #     label.pack_forget()
             label = Label(
                 text=f"Active Cases           = {text['statewise'][i]['active']}").pack(anchor=W)
             label1 = Label(
@@ -109,6 +116,10 @@ def main():
     file.add_command(label='Exit', command=exit)
     mymenu.add_cascade(label='File', menu=file)
     root.config(menu=mymenu)
+    helpmenu = Menu(mymenu, tearoff=0)
+    helpmenu.add_command(label='Help', command=helpp)
+    mymenu.add_cascade(label='Help', menu=helpmenu)
+    root.config(menu=mymenu)
     body()
 
 
@@ -116,15 +127,18 @@ if __name__ == '__main__':
     try:
         from tkinter import *
         import os
+        from plyer import notification
         import datetime
         import requests
     except Exception as e:
         os.system('pip install requests')
+        os.system('pip install plyer')
     else:
         root = Tk()
         root.title('COVID update Software')
         root.geometry("655x333")
         root.minsize(655, 333)
         root.maxsize(655, 333)
+        # root.wm_iconbitmap("icon.png")
         main()
         root.mainloop()
