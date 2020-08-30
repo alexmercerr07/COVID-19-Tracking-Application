@@ -64,8 +64,6 @@ def printdata():
     global optionVal
     state = optionVal
     global text
-    print('This is for Debugging')
-    print(numberOfSubmit)
     for i in range(0, 38):
         if state.lower() == text['statewise'][i]['state'].lower():
             # if numberOfSubmit == 1:
