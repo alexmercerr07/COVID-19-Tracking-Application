@@ -1,5 +1,6 @@
-# COVID - 19 Update(INDIA)
+# CureCode
 
+A Software which pulls out the latest numbers of Corona Virus Cases currently in INDIA and Displays it to the User.
 As we all are locked up in our Homes during this lockdown period so Here I have came up with a techniques to trace the COVID cases near your place. Comming to the Repository It Includes COVID -19 Tracing App in both CLI (Command Line Interface) and GUI (Graphical User InterFace). You can Enter your State and can get the details of your state related to COVID - 19
 
 ## Getting Started
